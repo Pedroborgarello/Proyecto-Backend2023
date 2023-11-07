@@ -1,56 +1,57 @@
 [
   {
     "id": 1,
-    "title": "producto prueba",
-    "description": "Este es un producto prueba",
-    "price": 200,
-    "code": "abc123",
-    "thumbnail": "Sin imagen",
-    "stock": 25
+    "title": "remera1",
+    "description": "roja",
+    "price": "5000",
+    "code": "123abc",
+    "thumbnail": "no disponible",
+    "stock": "20",
+    "status": true,
+    "category": "remera"
   },
   {
     "id": 2,
-    "title": "producto prueba 2",
-    "description": "Este es un producto prueba actualizado",
-    "price": 220,
-    "code": "abc23",
-    "thumbnail": "Sin imagen",
-    "stock": 30
+    "title": "remera2",
+    "description": "azul",
+    "price": "5000",
+    "code": "234abc",
+    "thumbnail": "no disponible",
+    "stock": "30",
+    "status": true,
+    "category": "remera"
   },
   {
     "id": 3,
-    "title": "producto prueba 3",
-    "description": "Este es un producto prueba actualizado",
-    "price": 220,
-    "code": "abc23",
-    "thumbnail": "Sin imagen",
-    "stock": 30
+    "title": "remera3",
+    "description": "amarillo",
+    "price": "5000",
+    "code": "345abc",
+    "thumbnail": "no disponible",
+    "stock": "17",
+    "status": true,
+    "category": "remera"
   },
   {
     "id": 4,
-    "title": "producto prueba 4",
-    "description": "Este es un producto prueba actualizado",
-    "price": 220,
-    "code": "abc23",
-    "thumbnail": "Sin imagen",
-    "stock": 30
+    "title": "remera4",
+    "description": "verde",
+    "price": "5000",
+    "code": "456abc",
+    "thumbnail": "no disponible",
+    "stock": "18",
+    "status": true,
+    "category": "remera"
   },
   {
     "id": 5,
-    "title": "producto prueba 5",
-    "description": "Este es un producto prueba actualizado",
-    "price": 220,
-    "code": "abc23",
-    "thumbnail": "Sin imagen",
-    "stock": 30
-  },
-  {
-    "id": 6,
-    "title": "producto prueba 6",
-    "description": "Este es un producto prueba actualizado",
-    "price": 220,
-    "code": "abc23",
-    "thumbnail": "Sin imagen",
-    "stock": 30
+    "title": "remera5",
+    "description": "naranja",
+    "price": 2500,
+    "code": "567abc",
+    "thumbnail": "nada",
+    "stock": 45,
+    "status": true,
+    "category": "remera"
   }
 ]
