@@ -5,7 +5,7 @@ class ProductManager {
     constructor(){
         this.products = [];
         this.id = 0;
-        this.path = "../files/products.txt"
+        this.path = "./src/files/products.txt"
     }
 
     async addProduct(product){
@@ -20,16 +20,18 @@ class ProductManager {
                 } else {
                     const productData = {
                         id: productId + 1,
-                        title: title,
-                        description: description,
-                        price: price,
-                        thumbnail: thumbnail,
-                        code: code,
-                        stock: stock,
+                        title: product.title,
+                        description: product.description,
+                        price: product.price,
+                        thumbnail: product.thumbnail,
+                        code: product.code,
+                        stock: product.stock,
+                        status: true,
+                        category: product.category,
                     };
 
                     if (productsArray.some(prod => prod.code === productData.code) && productsArray.some(prod => prod.title.toLowerCase() === productData.title.toLowerCase())){
-                        return console.log({ status: 'error', message: 'the product already exists' })
+                        return console.log({  message: 'the product already exists' })
                     } else {
                         productsArray.push(productData);
                         await fs.promises.writeFile(this.path, JSON.stringify(productsArray, null, 2));
@@ -42,12 +44,14 @@ class ProductManager {
                 } else {
                     const productData = {
                         id: 1,
-                        title: title,
-                        description: description,
-                        price: price,
-                        thumbnail: thumbnail,
-                        code: code,
-                        stock: stock,
+                        title: product.title,
+                        description: product.description,
+                        price: product.price,
+                        thumbnail: product.thumbnail,
+                        code: product.code,
+                        stock: product.stock,
+                        status: true,
+                        category: product.category,
                     };
 
                     await fs.promises.writeFile(this.path, JSON.stringify([productData], null, 2));
@@ -124,4 +128,3 @@ class ProductManager {
 }
 
 export default ProductManager;
-

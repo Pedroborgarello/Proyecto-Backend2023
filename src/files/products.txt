@@ -53,5 +53,27 @@
     "stock": 45,
     "status": true,
     "category": "remera"
+  },
+  {
+    "id": 6,
+    "title": "remera6",
+    "description": "negra",
+    "price": 5000,
+    "thumbnail": "a",
+    "code": "678abc",
+    "stock": 50,
+    "status": true,
+    "category": "remera"
+  },
+  {
+    "id": 7,
+    "title": "remera7",
+    "description": "rosa",
+    "price": 5000,
+    "thumbnail": "a",
+    "code": "789abc",
+    "stock": 20,
+    "status": true,
+    "category": "remera"
   }
 ]

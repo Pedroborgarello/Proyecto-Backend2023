@@ -2,7 +2,7 @@ import fs from 'fs';
 
 class CartManager {
     constructor() {
-        this.path = '../files/carts.txt'
+        this.path = './src/files/carts.txt'
     }
 
     async createCart(cart) {
